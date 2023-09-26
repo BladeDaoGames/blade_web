@@ -1,0 +1,39 @@
+@font-face {
+  font-family: HK Grotesk Wide;
+  src: url('./assets/font/HKGroteskWide-Regular.otf');
+}
+
+@font-face {
+  font-family: HK Grotesk bold;
+  src: url('./assets/font/HKGroteskWide-ExtraBold.otf');
+}
+
+body {
+  margin: 0;
+  background-color: #998B6E;
+  font-family: 'HK Grotesk Wide';
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-dots {
+  left: -40px !important;
+  // width: 37.448px !important;
+  li {
+    margin: 0 !important;
+  }
+
+  button::before {
+    color: #D9D9D9 !important;
+    opacity: 1 !important;
+  }
+
+  .slick-active {
+    button::before {
+      color: #FE391F !important;
+      opacity: 1 !important;
+    }
+  }
+}

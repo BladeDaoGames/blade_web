@@ -1,0 +1,1024 @@
+a{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.container {
+  width: 1440px;
+  overflow: hidden;
+
+  .animationB {
+    position: absolute;
+    top: 68.5px;
+    left: 0px;
+  }
+
+  .header {
+    position: absolute;
+    top: 0px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 73.5px;
+    border-bottom: 1px solid #FA2925;
+
+    // margin-top: 29px;
+    .logo {
+      width: 153px;
+      height: 28px;
+      margin-left: 136px;
+    }
+
+    .link-group {
+      // background-image: url(../../assets/web/header.svg);
+      width: 1440px;
+      height: 73.5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: absolute;
+      top: 0;
+      overflow: hidden;
+      // left: 411.5px;
+
+      .headerImg {
+        z-index: -1;
+        top: 0;
+        position: absolute;
+        left: 407px;
+        width: 1505px;
+        height: 73.5px;
+        object-fit: cover;
+      }
+
+      .link {
+        &:hover {
+          color: #86795B;
+        }
+
+        cursor: pointer;
+        color: #FFF;
+        font-family: HK Grotesk Wide;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.95px;
+        margin: 0px 40px;
+      }
+    }
+  }
+
+  .line2 {
+    position: absolute;
+    top: 0;
+    left: -6px;
+  }
+
+  .triangle {
+    position: absolute;
+    top: 493px;
+    // left: 2px;
+  }
+
+  .cra {
+    position: absolute;
+    top: 155px;
+    left: 176px;
+  }
+
+  .ting {
+    position: absolute;
+    top: 252px;
+    left: 331px;
+  }
+
+  .digital {
+    position: absolute;
+    top: 420px;
+    left: 274px;
+  }
+
+  .line3 {
+    position: absolute;
+    top: 319px;
+    left: -8px;
+    width: 1448px;
+  }
+
+  .realities {
+    position: absolute;
+    top: 419px;
+    left: 665px;
+  }
+
+  .since-alpha {
+    position: absolute;
+    top: 548px;
+    left: 619px;
+  }
+
+  .mission {
+    position: absolute;
+    top: 1013px;
+    left: 708px;
+    width: 534px;
+    color: #FFF;
+    font-family: HK Grotesk bold;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0.625px;
+    text-transform: capitalize;
+  }
+
+  .title {
+    position: absolute;
+    top: 1358px;
+    left: 74px;
+    width: 497px;
+    transform: rotate(-70.272deg);
+    color: #FFF;
+    font-family: HK Grotesk Wide;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80.5px;
+    letter-spacing: 19.5px;
+  }
+
+  .lade {
+    position: absolute;
+    top: 1519px;
+    left: 446.5px;
+  }
+
+  .rectangle {
+    position: absolute;
+    top: 1525px;
+    left: 268.5px;
+  }
+
+  .rectangle2 {
+    position: absolute;
+    top: 1664px;
+    left: 487.5px;
+  }
+
+  .triangle2 {
+    position: absolute;
+    top: 1667px;
+    // left: 2px;
+  }
+
+  .mission2 {
+    position: absolute;
+    top: 1740px;
+    left: 528px;
+    width: 764px;
+    color: #FFF;
+    font-family: HK Grotesk bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+  }
+
+  .collection {
+    .game1 {
+
+      // position: absolute;
+      .content {
+        width: 394px;
+        height: 177.128px;
+
+        color: #FFF;
+        font-family: HK Grotesk Wide;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        z-index: 2;
+        /* 187.5% */
+        letter-spacing: 1.6px;
+        position: absolute;
+        top: 2138.53px;
+        left: 457px;
+      }
+
+      .title2 {
+        width: 295.252px;
+        height: 40.256px;
+
+        color: #FFF;
+        font-family: HK Grotesk bold;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 2056px;
+        left: 464.67px;
+      }
+
+      .details {
+        &:hover {
+          color: #E6462B;
+        }
+
+        cursor: pointer;
+        width: 82px;
+        height: 19px;
+        color: #86795B;
+        text-align: right;
+        font-family: HK Grotesk bold;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2.6px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+      }
+
+      .img5 {
+        position: absolute;
+        top: 2060px;
+        left: 435px;
+      }
+
+      .img4 {
+        position: absolute;
+        top: 1984px;
+        left: 836px;
+        z-index: 2;
+      }
+
+      .img3 {
+        position: absolute;
+        top: 2327px;
+        left: 435px;
+      }
+
+      .img2 {
+        position: absolute;
+        top: 2029px;
+        left: 735px;
+      }
+
+      .img1 {
+        position: absolute;
+        top: 1929px;
+        left: 882px;
+        z-index: 1;
+      }
+    }
+
+    .game2 {
+
+      // position: absolute;
+      .content {
+        z-index: 3;
+        width: 476px;
+        height: 177.128px;
+
+        color: #FFF;
+        font-family: HK Grotesk Wide;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 1.6px;
+        position: absolute;
+        top: 2899px;
+        left: 706px;
+      }
+
+      .title2 {
+        z-index: 3;
+        width: 295.252px;
+        height: 40.256px;
+
+        color: #FFF;
+        font-family: HK Grotesk bold;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 2821px;
+        left: 709px;
+      }
+
+      .details {
+        &:hover {
+          color: #E6462B;
+        }
+        cursor: pointer;
+        width: 82px;
+        height: 19px;
+        color: #86795B;
+        text-align: right;
+        font-family: HK Grotesk bold;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2.6px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+      }
+
+      .img3 {
+        position: absolute;
+        top: 3200px;
+        left: 925px;
+      }
+
+      .img5 {
+        position: absolute;
+        top: 2823px;
+        left: 683px;
+
+      }
+
+      .img4 {
+        position: absolute;
+        top: 2795px;
+        left: 212px;
+        z-index: 2;
+      }
+
+      .img2 {
+        position: absolute;
+        top: 2862px;
+        left: 467px;
+      }
+
+      .img1 {
+        position: absolute;
+        top: 2752px;
+        left: 529px;
+        z-index: 1;
+      }
+    }
+
+    .main {
+      .title1 {
+        position: absolute;
+        top: 2434px;
+        left: 440px;
+      }
+
+      .title2 {
+        position: absolute;
+        top: 2559px;
+        left: 172px;
+      }
+
+      .img2 {
+        position: absolute;
+        top: 2515px;
+        left: 101px;
+      }
+
+      .img1 {
+        position: absolute;
+        top: 2294px;
+        left: 1212px;
+      }
+    }
+
+    .line1 {
+      user-select: none;
+      position: absolute;
+      top: 2609px;
+      left: 234.5px;
+    }
+
+    .tri1 {
+      position: absolute;
+      top: 2668px;
+      left: 1201.5px;
+    }
+  }
+
+  .latest {
+    position: absolute;
+    top: 3434px;
+    width: 1440px;
+
+    .title3 {
+      margin-left: 226px;
+      margin-bottom: 84px;
+      color: #FFF;
+      font-family: HK Grotesk bold;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      letter-spacing: 5.1px;
+      text-transform: uppercase;
+    }
+
+    .card-list {
+      display: flex;
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .card1 {
+        background: url(../../assets/web/card.svg);
+        color: #FFF;
+      }
+
+      .card2 {
+        background: url(../../assets/web/card2.svg);
+        color: #FF1400;
+      }
+
+      .card {
+        position: relative;
+        // background: url(../../assets/web/card.svg);
+        width: 432px;
+        height: 317.974px;
+        margin-left: 114px;
+
+        .title4 {
+          padding-top: 51px;
+          margin-bottom: 55px;
+          margin-left: 28px;
+          width: 336px;
+          height: 45px;
+          // color: #FFF;
+          font-family: HK Grotesk bold;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+        }
+
+        .line5 {
+          margin-left: 28px;
+        }
+
+        .content1 {
+          height: 80px;
+          white-space: break-spaces;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-left: 28px;
+          margin-top: 36.26px;
+          width: 353.961px;
+          // color: #FFF;
+          font-family: HK Grotesk Wide;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25px;
+          /* 156.25% */
+          letter-spacing: 1.6px;
+        }
+
+        .arrow {
+          position: absolute;
+          top: 18px;
+          right: 18px;
+        }
+      }
+    }
+  }
+
+  .team {
+    position: absolute;
+
+
+    .line7 {
+      position: absolute;
+      top: 4622px;
+      left: 206px;
+    }
+
+    &-list {
+      overflow: auto;
+      z-index: 1;
+      width: 1440px;
+      display: flex;
+      position: absolute;
+      top: 4606px;
+      // margin-left: 140px;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      // left: 206px;
+
+      // &-list:last-child {
+      //   margin-right: 0px;
+      // }
+
+      &-item {
+        position: relative;
+        margin-left: 50px;
+
+
+        &-avater {
+          width: 220px;
+          height: 320px;
+        }
+
+        &-content {
+          margin-top: 16px;
+          width: 264px;
+          color: #FFF;
+          font-family: HK Grotesk Wide;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 35px;
+          /* 218.75% */
+          letter-spacing: 1.6px;
+        }
+
+        &-title {
+          margin-top: 22px;
+          width: 115px;
+          color: #FFF;
+          font-family: HK Grotesk bold;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+        }
+
+        &-img1 {
+          position: absolute;
+          top: 228px;
+          left: 123px;
+          z-index: 1;
+        }
+      }
+    }
+
+    &-content {
+      top: 4278px;
+      left: 279px;
+      position: absolute;
+      width: 980px;
+      color: #FFF;
+      font-family: HK Grotesk Wide;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      /* 187.5% */
+      letter-spacing: 1.6px;
+    }
+
+    &-title {
+      position: absolute;
+      top: 4073px;
+      left: 684px;
+      width: 548px;
+      color: #FFF;
+      font-family: HK Grotesk bold;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      letter-spacing: 5.1px;
+      text-transform: uppercase;
+    }
+
+    &-fk {
+      position: absolute;
+      top: 4232px;
+      left: 1177px;
+    }
+
+    &-line {
+      position: absolute;
+      top: 4041px;
+    }
+
+    &-tri {
+      position: absolute;
+      top: 4041px;
+    }
+  }
+
+  .advisors {
+    position: absolute;
+
+    &-tri {
+      position: absolute;
+      top: 5752px;
+      left: 1217px;
+    }
+
+    &-line {
+      position: absolute;
+      top: 5693px;
+      left: 205.5px;
+    }
+
+    &-item {
+      position: relative;
+      margin-right: 137.3px;
+
+      &-content {
+        margin-top: 23.41px;
+        width: 278.348px;
+        color: #FFF;
+        font-family: HK Grotesk Wide;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        /* 218.75% */
+        letter-spacing: 1.6px;
+      }
+
+      &-title {
+        margin-top: 40px;
+        color: #FFF;
+        font-family: HK Grotesk bold;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+
+      &-img {
+        position: absolute;
+        top: 319.97px;
+        left: 168.48px;
+      }
+    }
+
+    &-list {
+      position: absolute;
+      display: flex;
+      top: 5532.88px;
+      left: 207.81px;
+    }
+
+    &-title {
+      position: absolute;
+      top: 5391px;
+      left: 202px;
+      color: #FFF;
+      font-family: HK Grotesk bold;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      letter-spacing: 5.1px;
+      text-transform: uppercase;
+    }
+  }
+
+  .partners {
+    position: absolute;
+    top: 5391px;
+    // top: 6538px;
+    width: 1440px;
+
+    .list {
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+
+    &-list1 {
+      display: flex;
+      margin-left: 90px;
+      margin-bottom: 19px;
+    }
+
+    &-list2 {
+      display: flex;
+      margin-left: 80px;
+    }
+
+    &-item {
+      position: relative;
+      flex-shrink: 0;
+      margin-right: 1px;
+      // background: url('../../assets/web/rectangle10.svg');
+      width: 394.83px;
+      height: 198px;
+
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      &-img1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 240px;
+      }
+
+      &-img2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+
+    &-title {
+      margin-left: 202px;
+      margin-bottom: 104px;
+      color: #FFF;
+      font-family: HK Grotesk bold;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      letter-spacing: 5.1px;
+      text-transform: uppercase;
+    }
+  }
+
+  .footer {
+    position: absolute;
+    top: 6113px;
+    // top: 7260px;
+
+    &-main {
+      position: absolute;
+      top: 457px;
+      left: 212px;
+
+      .main-footer {
+        width: 884px;
+        display: flex;
+        position: absolute;
+        align-items: flex-start;
+        justify-content: space-between;
+        top: 190px;
+
+        &-sec {
+          margin-right: 25px;
+
+          .sec-text {
+            cursor: pointer;
+            color: #C3B9A4;
+            font-family: HK Grotesk Wide;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 38.5px;
+            /* 240.625% */
+            letter-spacing: 1.6px;
+          }
+
+          .sec-title {
+            color: #D9D9D9;
+            font-family: HK Grotesk Wide;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 38.5px;
+            /* 213.889% */
+            letter-spacing: 1.8px;
+          }
+        }
+      }
+
+      .main-container {
+        display: flex;
+
+        .main {
+          &-sub {
+            width: 625px;
+            color: #C3B9A4;
+            font-family: HK Grotesk Wide;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 38.5px;
+            /* 213.889% */
+            letter-spacing: 1.8px;
+          }
+
+          &-title {
+            margin-right: 122px;
+            width: 479px;
+            color: #FFF;
+            font-family: HK Grotesk bold;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    &-img {
+      position: absolute;
+    }
+
+    &-link {
+      color: #FFF !important;
+      margin-bottom: 30px;
+    }
+
+    &-links {
+      position: absolute;
+      margin-top: 144px;
+      left: 1224px;
+      display: flex;
+      flex-direction: column;
+      color: #FFF !important;
+      text-align: right;
+      font-family: HK Grotesk bold;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    &-logo {
+      position: absolute;
+      top: 221px;
+      left: 664px;
+      z-index: 1;
+    }
+  }
+}
+
+.DialogOverlay {
+  background: rgba(134, 121, 91, 0.80);
+  backdrop-filter: blur(10px);
+  z-index: 22;
+  position: fixed;
+  inset: 0;
+  animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.DialogContent {
+  border: none;
+  outline: none;
+  overflow: hidden;
+  z-index: 33;
+  // background: #86795B;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1728px;
+  height: 1117px;
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  .close {
+    position: absolute;
+    top: 164px;
+    left: 143px;
+    cursor: pointer;
+  }
+
+  .textbox {
+    position: absolute;
+    top: 762px;
+    left: 706px;
+
+    .des {
+      width: 392px;
+      color: #FFF;
+      font-family: HK Grotesk Wide;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      /* 187.5% */
+      letter-spacing: 1.6px;
+    }
+
+    .coming {
+      margin-bottom: 44px;
+      color: #FFF;
+      font-family: HK Grotesk bold;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      letter-spacing: 5.1px;
+      text-transform: uppercase;
+    }
+  }
+
+  .diaTitle1 {
+    position: absolute;
+    top: 492px;
+    left: 554px;
+    color: #FE391F;
+    font-family: HK Grotesk bold;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 10px;
+  }
+
+  .diaTitle2 {
+    position: absolute;
+    top: 622px;
+    left: 709px;
+    color: #FE391F;
+    font-family: HK Grotesk bold;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 10px;
+  }
+
+  .diaImg4 {
+    position: absolute;
+    bottom: 0;
+    left: 1119px;
+  }
+
+  .diaImg3 {
+    position: absolute;
+    top: 109px;
+    left: 1106px;
+  }
+
+  .diaImg2 {
+    position: absolute;
+    top: 150px;
+    left: 538px;
+  }
+
+  .diaImg1 {
+    position: absolute;
+    left: 99px;
+    top: 455px;
+  }
+
+  .redbox1 {
+    position: absolute;
+    left: 210px;
+    top: 652px;
+  }
+
+  .redbox2 {
+    position: absolute;
+    left: 952px;
+    top: 11px;
+  }
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

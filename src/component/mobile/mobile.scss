@@ -1,0 +1,449 @@
+$screen_width: 393px;
+
+.plist-item-content{
+  position: absolute;
+  top: 19.2px;
+  left: 10.67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.blade {
+  width: $screen_width;
+  overflow: hidden;
+  &-blogo {
+    position: absolute;
+    top: 254px;
+    left: 31px;
+  }
+
+  &-text1 {
+    position: absolute;
+    top: 88.8px;
+    left: 46.34px;
+  }
+
+  &-text2 {
+    position: absolute;
+    top: 160px;
+    left: 75px;
+  }
+
+  &-text3 {
+    position: absolute;
+    top: 160px;
+    left: 179.67px;
+  }
+
+  &-text4 {
+    position: absolute;
+    top: 207.85px;
+    left: 163.03px;
+  }
+
+  &-sanjiao1 {
+    position: absolute;
+    top: 180px;
+    left: 1px;
+  }
+
+  &-sanjiao2 {
+    position: absolute;
+    top: 513px;
+    left: -2px;
+  }
+
+  &-line1 {
+    position: absolute;
+    top: 0;
+    left: 1px;
+  }
+
+  &-line2 {
+    position: absolute;
+    // width: $screen_width;
+    top: 132.76px;
+    left: -3px;
+    z-index: 2;
+  }
+
+  .list {
+    position: absolute;
+    top: 3611px;
+    // top: 4259px;
+    width: $screen_width;
+
+    .partners-item {
+      position: relative;
+
+      &-img1 {
+        position: absolute;
+        min-height: 20px;
+        max-width: 128px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+      }
+    }
+  }
+
+  &-footer {
+    position: absolute;
+    top: 3897px;
+    // top: 4545px;
+
+    &-img1 {
+      position: absolute;
+      top: 8px;
+      // bottom: ;
+    }
+
+    &-logo {
+      position: absolute;
+      top: 32px;
+      left: 170px;
+    }
+
+    &-links {
+      position: absolute;
+      top: 56px;
+      left: 280px;
+      
+      &-item {
+        text-decoration: none;
+        color: #FFF;
+        text-align: right;
+        font-family: HK Grotesk bold;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 30px;
+      }
+    }
+
+    &-title {
+      position: absolute;
+      top: 111px;
+      left: 50px;
+      width: 190px;
+      color: #FFF;
+      font-family: HK Grotesk bold;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 20px;
+      /* 166.667% */
+    }
+  }
+
+  &-team {
+    position: absolute;
+    top: 2810px;
+    display: flex;
+    width: $screen_width;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &-item {
+      position: relative;
+      margin-right: 75px;
+
+      &-img1 {
+        position: absolute;
+        top: 209px;
+        left: 114px;
+      }
+
+      &-img2 {
+        width: 196px;
+        height: 286px;
+      }
+
+      &-title {
+        margin-top: 19px;
+        margin-bottom: 14px;
+        color: #FFF;
+        font-family: HK Grotesk bold;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+
+      &-desc {
+        width: 211px;
+        color: #FFF;
+        font-family: HK Grotesk Wide;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 1.6px;
+      }
+    }
+  }
+
+  &-divide2 {
+    position: absolute;
+    top: 2622px;
+    left: 0;
+
+    &-img1 {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &-img2 {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  &-plist {
+    position: absolute;
+    top: 2412px;
+    display: flex;
+    width: 393px;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .card2 {
+      color: #ff1400;
+    }
+
+    .card1 {
+      color: #FFF;
+    }
+
+    &-item {
+      position: relative;
+      margin-left: 18px;
+
+      &-title {
+        // position: absolute;
+        // top: 19.2px;
+        // left: 10.64px;
+        width: 133px;
+        font-family: HK Grotesk bold;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        height: 58px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      &-img3 {
+        position: absolute;
+        top: 10.54px;
+        right: 8.61px;
+      }
+
+      &-img2 {
+        // position: absolute;
+        // top: 80px;
+        // left: 10.64px;
+      }
+    }
+  }
+
+  &-subtitle {
+    // width: 297px;
+    position: absolute;
+    top: 2311px;
+    left: 46px;
+    color: #FFF;
+    font-family: HK Grotesk bold;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.45px;
+    text-transform: uppercase;
+  }
+
+  &-divide1 {
+    position: absolute;
+    top: 2062px;
+    right: 0px;
+
+    &-img1 {
+      position: absolute;
+      right: 0;
+    }
+
+    &-img2 {
+      position: absolute;
+      right: 0;
+      top: 16.6px;
+    }
+  }
+
+  &-game1 {
+    position: absolute;
+    top: 960px;
+    left: 43px;
+
+    &-list {
+      position: absolute;
+      top: 31px;
+      left: 14px;
+      width: 308px;
+      height: 244px;
+
+      .game1img {
+        width: 308px;
+        height: 244px;
+      }
+    }
+
+    &-content {
+      position: absolute;
+      top: 345px;
+
+      &-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 26.67px;
+      }
+
+      &-desc {
+        width: 311px;
+        height: 149px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: HK Grotesk Wide;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        /* 178.571% */
+        letter-spacing: 1.4px;
+
+        span {
+          font-family: HK Grotesk bold;
+          text-transform: uppercase;
+        }
+      }
+
+      &-title {
+        // width: 207px;
+        color: #FFF;
+        font-family: HK Grotesk bold;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 2.3px;
+        text-transform: uppercase;
+      }
+
+      &-line {
+        position: absolute;
+        left: 4px;
+      }
+    }
+
+    &-img1 {
+      position: absolute;
+      left: 46.67px;
+    }
+
+    &-img2 {
+      position: absolute;
+      top: 176px;
+      left: 124px;
+    }
+  }
+
+  &-title2 {
+    position: absolute;
+    top: 882px;
+    left: 28px;
+    color: #FE391F;
+    font-family: HK Grotesk bold;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.5px;
+  }
+
+  &-title1 {
+    position: absolute;
+    top: 827px;
+    left: 69px;
+    color: #FE391F;
+    font-family: HK Grotesk bold;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.5px;
+  }
+
+  &-header {
+    width: $screen_width;
+    height: 61.5px;
+    border-bottom: 1px solid #FB1F19;
+
+    &-img1 {
+      position: absolute;
+      left: 116px;
+      top: 0;
+    }
+
+    &-img2 {
+      position: absolute;
+      left: 182px;
+      top: 16px;
+    }
+  }
+
+  &-missionImg1 {
+    position: absolute;
+    top: 553px;
+    left: 62px;
+  }
+
+  &-missionImg2 {
+    position: absolute;
+    top: 642px;
+    left: 256px;
+  }
+
+  &-mission {
+    position: absolute;
+    top: 586px;
+    left: 86px;
+    width: 258px;
+    color: #FFF;
+    font-family: HK Grotesk bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 178.571% */
+    letter-spacing: 0.35px;
+    text-transform: capitalize;
+  }
+}
