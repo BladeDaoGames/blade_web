@@ -1,5 +1,5 @@
 FROM node:16.20.1-alpine3.17 as build
-
+RUN npm install -g pnpm
 WORKDIR /app
 
 COPY package.json /app/
