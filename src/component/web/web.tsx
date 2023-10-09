@@ -15,6 +15,8 @@ import Line3 from '../../assets/web/line3.svg'
 import Line4 from '../../assets/web/line4.svg'
 import Line5 from '../../assets/web/line5.svg'
 import Line6 from '../../assets/web/line6.svg'
+import PlayButton from '../../assets/web/play.png'
+import PlayHover from '../../assets/web/play-hover.png'
 // import Line7 from '../../assets/web/line7.svg'
 // import Line8 from '../../assets/web/line8.svg'
 import Line9 from '../../assets/web/line9.svg'
@@ -108,6 +110,7 @@ function App() {
     }
   }, [])
   const [scaleValue, setScaleValue] = useState(1)
+  const [hover, setHover] = useState(false)
   const elm = useRef(null)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [posts, setPosts] = useState<any[]>([])
@@ -271,6 +274,9 @@ function App() {
                   <img className='diaImg2' src={diaImg2} alt="" />
                   <img className='diaImg3' src={diaImg3} alt="" />
                   <img className='diaImg4' src={diaImg4} alt="" />
+                  <a href="https://rolluproyale.netlify.app/" target="_blank">
+                    <img src={hover?PlayHover:PlayButton}  className="playButton" onMouseEnter={()=> setHover(true)} onMouseLeave={()=> setHover(false)}/>
+                  </a>
                   <div className="diaTitle1">LOOT</div>
                   <div className="diaTitle2">ROYALE</div>
                   {/* <img src={titleImg1} alt="" className="titleImg1" /> */}
@@ -496,7 +502,7 @@ function App() {
                 Since Alpha
               </div>
               <div className="main-sub">
-                BladeDAO is a fully onchain game studio dedicated to blurring the lines between digital realities and real world.
+              Blade Game is a fully onchain game studio dedicated to blurring the lines between digital realities and real world.
               </div>
             </div>
             <div className="main-footer">
