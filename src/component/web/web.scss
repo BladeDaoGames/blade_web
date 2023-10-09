@@ -3,6 +3,30 @@ a {
   background-color: transparent;
 }
 
+.diaButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 224px;
+  cursor: pointer;
+
+  &Img {
+    position: absolute;
+    width: 224px;
+  }
+
+  &Details {
+    color: #e2e2e2;
+    font-family: HK Grotesk bold;
+    font-size: 13px;
+    z-index: 1;
+  }
+}
+
+.slick-track {
+  top: 1px !important;
+}
+
 .container {
   width: 1440px;
   overflow: hidden;
@@ -121,8 +145,8 @@ a {
 
   .mission {
     position: absolute;
-    top: 1013px;
-    left: 708px;
+    top: 1070px;
+    left: 618px;
     width: 534px;
     color: #fff;
     font-family: HK Grotesk bold;
@@ -132,6 +156,7 @@ a {
     line-height: 45px;
     letter-spacing: 0.625px;
     text-transform: capitalize;
+    width: 590px;
   }
 
   .title {
@@ -175,8 +200,10 @@ a {
 
   .mission2 {
     position: absolute;
-    top: 1740px;
-    left: 528px;
+    // top: 1740px;
+    // left: 528px;
+    top: 1566px;
+    left: 428px;
     width: 764px;
     color: #fff;
     font-family: HK Grotesk bold;
@@ -245,7 +272,7 @@ a {
         letter-spacing: 2.6px;
         text-transform: capitalize;
         position: absolute;
-        top: 50%;
+        top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 3;
@@ -326,6 +353,7 @@ a {
         &:hover {
           color: #e6462b;
         }
+
         cursor: pointer;
         width: 82px;
         height: 19px;
@@ -339,7 +367,7 @@ a {
         letter-spacing: 2.6px;
         text-transform: capitalize;
         position: absolute;
-        top: 50%;
+        top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 3;
@@ -985,14 +1013,6 @@ a {
     position: absolute;
     left: 210px;
     top: 652px;
-  }
-
-  .playButton {
-    width: 224.5px;
-    height: 40px;
-    position: absolute;
-    bottom: 20px;
-    left: 706px;
   }
 
   .redbox2 {

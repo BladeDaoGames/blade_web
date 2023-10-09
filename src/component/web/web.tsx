@@ -15,8 +15,6 @@ import Line3 from '../../assets/web/line3.svg'
 import Line4 from '../../assets/web/line4.svg'
 import Line5 from '../../assets/web/line5.svg'
 import Line6 from '../../assets/web/line6.svg'
-import PlayButton from '../../assets/web/play.png'
-import PlayHover from '../../assets/web/play-hover.png'
 // import Line7 from '../../assets/web/line7.svg'
 // import Line8 from '../../assets/web/line8.svg'
 import Line9 from '../../assets/web/line9.svg'
@@ -44,6 +42,8 @@ import Rectangle8 from '../../assets/web/rectangle8.svg'
 // import Rectangle9 from '../../assets/web/rectangle9.svg'
 import Rectangle11 from '../../assets/web/rectangle11.svg'
 import Rectangle10 from '../../assets/web/rectangle10.svg'
+import Rectangle12 from '../../assets/web/rectangle12.svg'
+import Rectangle13 from '../../assets/web/rectangle13.svg'
 import Img1 from '../../assets/web/img1.png'
 import Img2 from '../../assets/web/img2.png'
 import Text1 from '../../assets/web/text1.svg'
@@ -75,6 +75,7 @@ import Arweave from 'arweave'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Slider from 'react-slick'
+import 'animate.css';
 
 function App() {
 
@@ -82,7 +83,7 @@ function App() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
+    speed: 500,
     autoplaySpeed: 2000,
     cssEase: "linear",
     nextArrow: null,
@@ -92,7 +93,7 @@ function App() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
+    speed: 500,
     autoplaySpeed: 2000,
     cssEase: "linear",
     nextArrow: null,
@@ -110,11 +111,11 @@ function App() {
     }
   }, [])
   const [scaleValue, setScaleValue] = useState(1)
-  const [hover, setHover] = useState(false)
   const elm = useRef(null)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [posts, setPosts] = useState<any[]>([])
   const [showTitle, setShowTitle] = useState(false)
+  const [hover, setHover] = useState(false)
   const title = useRef(null)
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -234,7 +235,7 @@ function App() {
           animate={{ x: 100 }}
           transition={{ delay: 0.3 }}
         >
-          We Push The Boundries Of Gaming With New Norms To Craft Engaging Gameplay. Retain Player’s Sovereignty Over Their Gaming Experience Through Blockchain Tech.
+          We challenge the boundries of gamings with new norms to craft paradigm-shifting gameplay, ensure every player retains sovereignty over their entire gaming experience. 
         </motion.div>
         {/* <div className="title">
           BLADE GAMES
@@ -250,7 +251,7 @@ function App() {
           animate={{ x: 100 }}
           transition={{ delay: 0.3 }}
         >
-          a fully on-chain gaming studio dedicated to blurring the lines between digital realities and real world.
+          A Fully On-Chain Game Studio Dedicated To Blurring The Lines Between Digital Realities And Real World.
         </motion.div>
         <div className="collection">
           <div className="game1">
@@ -274,17 +275,18 @@ function App() {
                   <img className='diaImg2' src={diaImg2} alt="" />
                   <img className='diaImg3' src={diaImg3} alt="" />
                   <img className='diaImg4' src={diaImg4} alt="" />
-                  <a href="https://rolluproyale.netlify.app/" target="_blank">
-                    <img src={hover?PlayHover:PlayButton}  className="playButton" onMouseEnter={()=> setHover(true)} onMouseLeave={()=> setHover(false)}/>
-                  </a>
                   <div className="diaTitle1">LOOT</div>
                   <div className="diaTitle2">ROYALE</div>
                   {/* <img src={titleImg1} alt="" className="titleImg1" /> */}
                   <div className="textbox">
-                    <div className="coming">coming soon</div>
+                    {/* <div className="coming">coming soon</div> */}
                     <div className="des">
                       Loot royale is a fast-paced battle royale game with heavy loot NFT references. Users can summon game characters using their loot NFTs through on-chain ML and decentralized storage.
                     </div>
+                    <a href='https://rolluproyale.netlify.app/' target='_blank' className='diaButton' style={{ marginTop: '50px' }} onMouseEnter={()=> setHover(true)} onMouseLeave={()=> setHover(false)}>
+                      <img className='diaButtonImg' src={hover?Rectangle13:Rectangle12} alt="" />
+                      <div className="diaButtonDetails" style={{color: hover?'#86795B': '#E2E2E2'}}>PLAY NOW</div>
+                    </a>
                   </div>
                   <Dialog.Close asChild>
                     <img src={close} alt="" className="close" />
@@ -377,7 +379,7 @@ function App() {
           <img src={Rectangle7} alt="" className="team-fk" />
           <div className="team-title">MEET THE BLADE TEAM</div>
           <div className="team-content">
-          Blade games is a fully on-chain game studio with a diverse team from backgrounds like game economist, defi degen, smart contract dev, crypto media and zkp research. The team has a strong belief in crafting digital realities and autonomous worlds.
+            Blade Game is a fully on-chain game studio with a diverse team from backgrounds like game economist, defi degen, smart contract dev, crypto media and zkp research. The team has a strong belief in crafting digital realities and autonomous worlds.
             <div style={{ marginTop: '30px' }} />
             The co-founders are Brawler and Zee, with 0xhatsume as the CTO.
           </div>
@@ -502,7 +504,7 @@ function App() {
                 Since Alpha
               </div>
               <div className="main-sub">
-              Blade Game is a fully onchain game studio dedicated to blurring the lines between digital realities and real world.
+                Blade Game is a fully onchain game studio dedicated to blurring the lines between digital realities and real world.
               </div>
             </div>
             <div className="main-footer">
