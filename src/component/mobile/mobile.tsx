@@ -260,7 +260,7 @@ const Mobile = () => {
                         Brawler
                     </div>
                     <div className="blade-team-item-desc">
-                        Co-founder of BladeDAO, indie game addict, repeat founder, advisor to crypto game studios. Previously built a crypto media company in 2019-2021 with over 180,000 subscribers.
+                        Co-founder of blade games, indie game addict, repeat founder, advisor to crypto game studios. Previously built a crypto media company in 2019-2021 with over 180,000 subscribers.
                     </div>
                 </div>
                 <div className="blade-team-item">
@@ -270,7 +270,7 @@ const Mobile = () => {
                         Zee
                     </div>
                     <div className="blade-team-item-desc">
-                        Co-founder of BladeDAO, game economics connoisseur, sometimes dev.
+                        Co-founder of blade games, game economics connoisseur, sometimes dev.
                     </div>
                 </div>
                 <div className="blade-team-item">
@@ -290,7 +290,7 @@ const Mobile = () => {
                         K
                     </div>
                     <div className="blade-team-item-desc">
-                        15+ years experience as producer of major MMORPG games at Shanda Games. Factory game player.
+                    15+ years experience as producer of major MMORPG games at at a leading Gaming Company in Asia. Factory game player.
                     </div>
                 </div>
             </div>

@@ -371,7 +371,7 @@ function App() {
           <img src={Rectangle7} alt="" className="team-fk" />
           <div className="team-title">MEET THE BLADE TEAM</div>
           <div className="team-content">
-            BladeDAO is a fully on-chain game studio with a diverse team from backgrounds like game economist, defi degen, smart contract dev, crypto media and zkp research. The team has a strong belief in crafting digital realities and autonomous worlds.
+          Blade games is a fully on-chain game studio with a diverse team from backgrounds like game economist, defi degen, smart contract dev, crypto media and zkp research. The team has a strong belief in crafting digital realities and autonomous worlds.
             <div style={{ marginTop: '30px' }} />
             The co-founders are Brawler and Zee, with 0xhatsume as the CTO.
           </div>
@@ -383,7 +383,7 @@ function App() {
                 Brawler
               </div>
               <div className="team-list-item-content">
-                Co-founder of BladeDAO, indie game addict, repeat founder, advisor to crypto game studios. Previously built a crypto media company in 2019-2021 with over 180,000 subscribers.
+                Co-founder of blade games, indie game addict, repeat founder, advisor to crypto game studios. Previously built a crypto media company in 2019-2021 with over 180,000 subscribers.
               </div>
             </div>
             <div className="team-list-item">
@@ -393,7 +393,7 @@ function App() {
                 Zee
               </div>
               <div className="team-list-item-content">
-                Co-founder of BladeDAO, game economics connoisseur, sometimes dev.
+                Co-founder of blade games, game economics connoisseur, sometimes dev.
               </div>
             </div>
             <div className="team-list-item">
@@ -413,7 +413,7 @@ function App() {
                 K
               </div>
               <div className="team-list-item-content">
-                15+ years experience as producer of major MMORPG games at Shanda Games. Factory game player.
+              15+ years experience as producer of major MMORPG games at at a leading Gaming Company in Asia. Factory game player.
               </div>
             </div>
           </div>
